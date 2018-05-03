@@ -8,5 +8,5 @@ Este tutorial demonstra como você pode construir bots usando o template Bot App
 Abaixo, os pré-requisitos para executar o projeto POC:
 
 1. Visual Studio 2015 Update 1, ou superior – Pode ser o community;
-2. Faça o download dos arquivos zip do Bot Application, Bot Controller, e Bot Dialog. Instale o projeto template copiando o arquivo Bot Application.zip para o diretório projects template do seu Visual Studio 2017 e copie os arquivos Bot Controller.zip e Bot Dialog.zip para o diretório item templates do seu Visual Studio 2017.
+2. Faça o download dos arquivos zip do **Bot Application**, **Bot Controller**, e **Bot Dialog**. Instale o projeto template copiando o arquivo **Bot Application.zip** para o diretório projects template do seu Visual Studio 2017 e copie os arquivos **Bot Controller.zip** e Bot Dialog.zip para o diretório item templates do seu Visual Studio 2017.
 3. Faça o download do Bot Emulator: https://github.com/Microsoft/BotFramework-Emulator - Necessário para teste do BOT;
