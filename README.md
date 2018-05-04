@@ -16,4 +16,4 @@ Este tutorial demonstra como você pode construir bots usando o template Bot App
 ## Criando o seu Bot
 
 Primeiro, abra o Visual Studio e crie um novo projeto C#. Escolha o template Bot Application para o seu novo projeto.
-![Novo Projeto no VS](images/g1.png)
+![Novo Projeto no VS](images/1.PNG)
