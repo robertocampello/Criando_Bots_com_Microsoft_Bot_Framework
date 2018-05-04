@@ -41,7 +41,7 @@ Uma vez, tendo o projeto criado a seguinte estrutura de diretórios será criada
 
 Primeiro o método ```Post``` localizado na pasta **Controllers\MessagesController.cs**. Este método é responsável por receber a mensagem do usuário e invocar o root dialog.
 
-```
+```html
 [BotAuthentication]
 public class MessagesController : ApiController
 {
