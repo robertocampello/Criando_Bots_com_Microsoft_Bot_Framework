@@ -27,10 +27,22 @@ Sendo **XXXX** o valor corresponde a versão do Visual Studio instalada.
 
 ## Conceitos Chaves
 
-### Connector
+#### Connector
 The [Bot Framework Connector](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-connector) fornece uma simples API REST que habilita a comunicação de um bot através de diversos canais como Skype, Email, Slack, e muito mais. Facilitando a comunicação entre o bot e o usuário transmitindo mensagens do bot para o canal e do canal para o bot.
 
 No Bot Builder SDK for .NET, a biblioteca [Connector](https://docs.microsoft.com/en-us/dotnet/api/microsoft.bot.connector?view=botconnector-3.12.2.4) habilita acesso ao Connector.
+
+#### Activity
+O Connector usa um objeto [Activity](https://docs.microsoft.com/en-us/dotnet/api/microsoft.bot.connector.activity?view=botconnector-3.12.2.4) para passar informações entre o bot e o canal (usuário). O tipo mais comum de activity é o message, mas existem outros tipos que podem ser usados para comunicação de vários tipos de informação de um bot ou canal.
+
+Para maiores detalhes sobre Activities no Bot Builder SDK for .NET, acesse [Activities overview](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-activities).
+
+#### Dialog
+Quando você cria um bot usando a framework Bot Builder SDK for .NET, você pode usar dialogs para modelar uma conversação e gerenciar o fluxo de conversações. Um dialog pode ser composto de outros dialogs para aumentar o reuso, e 
+
+to maximize reuse, and a dialog context maintains the stack of dialogs that are active in the conversation at any point in time. A conversation that comprises dialogs is portable across computers, which makes it possible for your bot implementation to scale.
+
+No Bot Builder SDK for .NET, a biblioteca [Builder](https://docs.microsoft.com/en-us/dotnet/api/microsoft.bot.builder.dialogs?view=botbuilder-3.12.2.4) permite que você gerencie dialogs.
 
 ## Criando o seu Bot
 
