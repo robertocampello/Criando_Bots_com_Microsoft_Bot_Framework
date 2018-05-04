@@ -25,3 +25,10 @@ Primeiro, abra o Visual Studio e crie um novo projeto C#. Escolha o template Bot
 ![Novo Projeto no VS](images/1.png)
 
 Usando o template Bot Application, você cria o projeto já contendo todos os componentes que são requeridos para construir uma simples aplicação bot, incluindo a referência para a framework Bot Builder SDK for .NET, ```Microsoft.Bot.Builder```. Verifique se as referências do projeto possuem a última versão da SDK seguindos os passos abaixo:
+
+1. Clique com botão direito no projeto e selecione Manage NuGet Packages.
+2. Na aba Browse, digite "Microsoft.Bot.Builder".
+3. Localize o package Microsoft.Bot.Builder na lista de resultados e clique no botão Update do package.
+4. Clique em OK na caixa de dialogo para confirmar as atualização.
+
+![Update Package](images/2.png)
