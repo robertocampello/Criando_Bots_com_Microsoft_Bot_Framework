@@ -22,4 +22,4 @@ Sendo **XXXX** o valor corresponde a versão do Visual Studio instalada.
 
 Primeiro, abra o Visual Studio e crie um novo projeto C#. Escolha o template Bot Application para o seu novo projeto.
 
-![Novo Projeto no VS](images/1.PNG)
+![Novo Projeto no VS](images/1.png)
