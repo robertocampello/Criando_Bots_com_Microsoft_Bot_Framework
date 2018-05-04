@@ -29,8 +29,12 @@ Usando o template Bot Application, você cria o projeto já contendo todos os co
 1. Clique com botão direito no projeto e selecione Manage NuGet Packages.
 2. Na aba Browse, digite "Microsoft.Bot.Builder".
 3. Localize o package Microsoft.Bot.Builder na lista de resultados e clique no botão Update do package.
-4. Clique em OK na caixa de dialogo para confirmar as atualização.
+4. Clique em OK na caixa de dialogo e após aceite as mudanças para confirmar as atualização.
 
 ![Update Package](images/2.png)
 
-Parabéns! Seu projeto agora possui todo o código necessário para criar o projeto POC deste tutorial.
+## Explorando o código
+
+Uma vez, tendo o projeto criado a seguinte estrutura de diretórios será criada para solution, conforme figura abaixo:
+
+![Solution Project](images/3.png)
