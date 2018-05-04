@@ -35,11 +35,13 @@ Usando o template Bot Application, você cria o projeto já contendo todos os co
 
 ## Explorando o código
 
-Uma vez, tendo o projeto criado a seguinte estrutura de diretórios será criada para solution, conforme figura abaixo:
+Uma vez, tendo o projeto criado a seguinte estrutura de diretórios será definida para solution, conforme figura abaixo:
 
 ![Solution Project](images/3.png)
 
-Primeiro o método ```Post``` localizado na pasta **Controllers\MessagesController.cs**. Este método é responsável por receber a mensagem do usuário e invocar o root dialog.
+**A Classe MessageController**
+
+Dentro da pasta **Controllers** é criada a classe MessagesController.cs. Esta classe possui o método chamado ```Post```, responsável por receber a mensagem do usuário e invocar o root dialog.
 
 ```C#
 [BotAuthentication]
@@ -65,4 +67,7 @@ public class MessagesController : ApiController
     ...
 }
 ```
+
+The root dialog processes the message and generates a response. The MessageReceivedAsync method within Dialogs\RootDialog.cs sends a reply that echos back the user's message, prefixed with the text 'You sent' and ending in the text 'which was ## characters', where ## represents the number of characters in the user's message.
+
 
