@@ -25,6 +25,13 @@ Este tutorial demonstra como você pode construir bots usando o template Bot App
 ```
 Sendo **XXXX** o valor corresponde a versão do Visual Studio instalada.
 
+## Conceitos Chaves
+
+### Connector
+The [Bot Framework Connector](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-connector) fornece uma simples API REST que habilita a comunicação de um bot através de diversos canais como Skype, Email, Slack, e muito mais. Facilitando a comunicação entre o bot e o usuário transmitindo mensagens do bot para o canal e do canal para o bot.
+
+No Bot Builder SDK for .NET, a biblioteca [Connector](https://docs.microsoft.com/en-us/dotnet/api/microsoft.bot.connector?view=botconnector-3.12.2.4) habilita acesso ao Connector.
+
 ## Criando o seu Bot
 
 Primeiro, abra o Visual Studio e crie um novo projeto C#. Escolha o template Bot Application para o seu novo projeto.
