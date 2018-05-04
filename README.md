@@ -38,7 +38,7 @@ O Connector usa um objeto [Activity](https://docs.microsoft.com/en-us/dotnet/api
 Para maiores detalhes sobre Activities no Bot Builder SDK for .NET, acesse [Activities overview](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-activities).
 
 #### Dialog
-Quando você cria um bot usando a framework Bot Builder SDK for .NET, você pode usar dialogs para modelar uma conversação e gerenciar o [fluxo de conversações]https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-conversation-flow#dialog-stack. Um dialog pode ser composto de outros dialogs para aumentar o reuso, e o contexto do dialog que mantém a [pilha de dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-conversation-flow) que estão ativos na conversação em qualquer momento.
+Quando você cria um bot usando a framework Bot Builder SDK for .NET, você pode usar dialogs para modelar uma conversação e gerenciar o [fluxo de conversações](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-conversation-flow#dialog-stack). Um dialog pode ser composto de outros dialogs para aumentar o reuso, e o contexto do dialog que mantém a [pilha de dialogs](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-design-conversation-flow) que estão ativos na conversação em qualquer momento.
 
 No Bot Builder SDK for .NET, a biblioteca [Builder](https://docs.microsoft.com/en-us/dotnet/api/microsoft.bot.builder.dialogs?view=botbuilder-3.12.2.4) permite que você gerencie dialogs.
 
