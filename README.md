@@ -38,3 +38,30 @@ Usando o template Bot Application, você cria o projeto já contendo todos os co
 Uma vez, tendo o projeto criado a seguinte estrutura de diretórios será criada para solution, conforme figura abaixo:
 
 ![Solution Project](images/3.png)
+
+Primeiro o método ```Post``` localizado na pasta **Controllers\MessagesController.cs**. Este método é responsável por receber a mensagem do usuário e invocar o root dialog.
+
+```
+[BotAuthentication]
+public class MessagesController : ApiController
+{
+    /// <summary>
+    /// POST: api/Messages
+    /// Receive a message from a user and reply to it
+    /// </summary>
+    public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
+    {
+        if (activity.Type == ActivityTypes.Message)
+        {
+            await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());
+        }
+        else
+        {
+            HandleSystemMessage(activity);
+        }
+        var response = Request.CreateResponse(HttpStatusCode.OK);
+        return response;
+    }
+    ...
+}
+```
