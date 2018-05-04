@@ -1,7 +1,14 @@
 # Criando Bots com o Microsoft Bot Framework
 Tutotial demonstrando a criação de Bots com o **Microsoft Bot Framework**.
 
-O Microsoft Bot Framework foi criado para ajudar na criação de bots. Bots são robôs pré programados que podem interagir com os usuários naturalmente no mais diversos canais como Skype, Facebook e outros serviços de mensagens.
+O Microsoft Bot Framework foi criado para ajudar na criação de bots. Bots são robôs pré programados que podem interagir com os usuários naturalmente nos mais diversos canais como Skype, Facebook e outros serviços de mensagens.
+
+Usando a SDK, você pode construir bots utilizando as seguintes SDK features:
+
+* Sistema de diálogos que podem ser utilizados de forma isolada ou composto
+* Prompts para interações simples como Yes/No, strings, numbers, e enumerations
+* Diálogos que utilize AI frameworks como o [LUIS](https://www.luis.ai/home)
+* FormFlow para gerar automaticamente um bot (através de uma classe C#) que direciona o usuário através da conversação, fornecendo ajuda, navegação, entendimento e confirmação
 
 Este tutorial demonstra como você pode construir bots usando o template Bot Application e o Bot Builder SDK for .NET, e como testá-lo com o Bot Framework Emulator.
 
@@ -41,7 +48,7 @@ Uma vez, tendo o projeto criado a seguinte estrutura de diretórios será defini
 
 **A Classe MessageController**
 
-Dentro da pasta **Controllers** é criada a classe MessagesController.cs. Esta classe possui o método chamado ```Post```, responsável por receber a mensagem do usuário e invocar o root dialog.
+Dentro da pasta **Controllers** é criada a classe **MessagesController.cs**. Esta classe possui o método chamado ```Post```, responsável por receber a mensagem do usuário e invocar o root dialog.
 
 ```C#
 [BotAuthentication]
