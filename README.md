@@ -81,7 +81,3 @@ public class MessagesController : ApiController
     ...
 }
 ```
-
-The root dialog processes the message and generates a response. The MessageReceivedAsync method within Dialogs\RootDialog.cs sends a reply that echos back the user's message, prefixed with the text 'You sent' and ending in the text 'which was ## characters', where ## represents the number of characters in the user's message.
-
-
