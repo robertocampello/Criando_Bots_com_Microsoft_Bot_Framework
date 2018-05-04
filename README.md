@@ -32,3 +32,5 @@ Usando o template Bot Application, você cria o projeto já contendo todos os co
 4. Clique em OK na caixa de dialogo para confirmar as atualização.
 
 ![Update Package](images/2.png)
+
+Parabéns! Seu projeto agora possui todo o código necessário para criar o projeto POC deste tutorial.
