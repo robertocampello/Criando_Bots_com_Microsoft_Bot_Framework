@@ -43,7 +43,7 @@ Quando você cria um bot usando a framework Bot Builder SDK for .NET, você pode
 No Bot Builder SDK for .NET, a biblioteca [Builder](https://docs.microsoft.com/en-us/dotnet/api/microsoft.bot.builder.dialogs?view=botbuilder-3.12.2.4) permite que você gerencie dialogs.
 
 #### FormFlow
-Você pode usar o [FormFlow](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-formflow) do Bot Builder SDK for .NET para simplificar a construção de um bot que coleta informações do usuário. Por exemplo, um bot que recebe pedidos de pizza deve coletar diversas informações do usuário como por exemplo, o sabor, o tamanho, entre outras informações. Através de guidelines básicos, o FormFlow pode automaticamente gerar o diálogo necessário para gerenciar a conversação. Neste tutorial vamos demonstrar a criação de um bot que utilizando FormFlow.
+Você pode usar o [FormFlow](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-formflow) do Bot Builder SDK for .NET para simplificar a construção de um bot que coleta informações do usuário. Por exemplo, um bot que recebe pedidos de pizza deve coletar diversas informações do usuário como por exemplo, o sabor, o tamanho, entre outras informações. Através de guidelines básicos, o FormFlow pode automaticamente gerar o diálogo necessário para gerenciar a conversação. Neste tutorial vamos demonstrar a criação de um bot utilizando FormFlow.
 
 ## Criando o seu Bot
 
