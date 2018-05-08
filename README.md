@@ -48,7 +48,7 @@ Você pode usar o [FormFlow](https://docs.microsoft.com/en-us/azure/bot-service/
 #### State
 A framework Bot Builder Framework permite o seu bot armazenar e recuperar o state data que está associado com um usuário. State data pode ser usado para diversar finalidades, como determinar onde a conversação anterior foi interrompida ou simplesmente cumprimentar um usuário através do seu nome. Se você armazenar as preferências do usuário, você pode usar esta informação para customizar a coversação da próxima vez que o usuário acessar o chat. Por exemplo, você pode alertar o usuário sobre novos artigos ou uma notícia do interesse dele, ou alertá-lo quando um evento estiver disponível.
 
-## Criando o seu Bot
+## Criando o seu primeiro Projeto Bot Application
 
 Primeiro, abra o Visual Studio e crie um novo projeto C#. Escolha o template Bot Application para o seu novo projeto.
 
