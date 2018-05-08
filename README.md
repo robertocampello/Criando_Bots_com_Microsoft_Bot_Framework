@@ -180,7 +180,7 @@ namespace Bot_RecommendationPlaces.Model.Bots
                     if (places.Count > 0) {
                         StringBuilder stringPlaces = new StringBuilder();
                         places.ForEach(delegate (String place) {
-                            stringPlaces.Append(place).Append(",\n"); 
+                            stringPlaces.Append("<br/>").Append(place);
                         });
 
                         message = String.Format("Segue a lista de recomendações: {0}", stringPlaces);
@@ -209,8 +209,8 @@ namespace Bot_RecommendationPlaces
     [BotAuthentication]
     public class MessagesController : ApiController {
         /// <summary>
-        /// conecta a classe RecommendationPlace ao bot. Esta função irá retornar uma interface IDialog. Essa interface que será responsável  
-        /// por gerenciar o fluxo de conversão entre nosso bot e os usuários.
+        /// Conecta a classe RecommendationPlace ao bot. Esta função irá retornar uma interface IDialog. 
+        /// Essa interface que será responsável por gerenciar o fluxo de conversão entre nosso bot e os usuários.
         /// </summary>
         /// <returns></returns>
         internal static IDialog<RecommendationPlace> MakeRootDialog() {
