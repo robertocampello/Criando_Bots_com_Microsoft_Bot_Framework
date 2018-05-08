@@ -69,31 +69,8 @@ Uma vez, tendo o projeto criado a seguinte estrutura de diretórios será defini
 
 ![Solution Project](images/3.png)
 
-**A Classe MessageController**
+**A Classe MessagesController**
 
-Dentro da pasta **Controllers** é criada a classe **MessagesController.cs**. Esta classe possui o método chamado ```Post```, responsável por receber a mensagem do usuário e invocar o root dialog.
+Dentro da pasta **Controllers** é criada a classe **MessagesController.cs**. Esta classe possui o método chamado ```Post```, responsável por receber a mensagem do usuário e invocar o root dialog (RootDialog.cs). A classe RootDialogs.cs é criada automáticamente para prover um diálogo padrão de exemplo. 
 
-```C#
-[BotAuthentication]
-public class MessagesController : ApiController
-{
-    /// <summary>
-    /// POST: api/Messages
-    /// Receive a message from a user and reply to it
-    /// </summary>
-    public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
-    {
-        if (activity.Type == ActivityTypes.Message)
-        {
-            await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());
-        }
-        else
-        {
-            HandleSystemMessage(activity);
-        }
-        var response = Request.CreateResponse(HttpStatusCode.OK);
-        return response;
-    }
-    ...
-}
-```
+Entretanto, no nosso tutotial não iremos utilizar esta classe, pois vamos implementar o nosso bot utilizando **Bot Form Builder** que irá tornar nossa vida super fácil ao criar fluxos de conversações entre um usuário e o Bot.
