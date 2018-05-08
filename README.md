@@ -45,6 +45,9 @@ No Bot Builder SDK for .NET, a biblioteca [Builder](https://docs.microsoft.com/e
 #### FormFlow
 Você pode usar o [FormFlow](https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-formflow) do Bot Builder SDK for .NET para simplificar a construção de um bot que coleta informações do usuário. Por exemplo, um bot que recebe pedidos de pizza deve coletar diversas informações do usuário como por exemplo, o sabor, o tamanho, entre outras informações. Através de guidelines básicos, o FormFlow pode automaticamente gerar o diálogo necessário para gerenciar a conversação. Neste tutorial vamos demonstrar a criação de um bot utilizando FormFlow.
 
+#### State
+A framework Bot Builder Framework permite o seu bot armazenar e recuperar o state data que está associado com um usuário. State data pode ser usado para diversar finalidades, como determinar onde a conversação anterior foi interrompida ou simplesmente cumprimentar um usuário através do seu nome. Se você armazenar as preferências do usuário, você pode usar esta informação para customizar a coversação da próxima vez que o usuário acessar o chat. Por exemplo, você pode alertar o usuário sobre novos artigos ou uma notícia do interesse dele, ou alertá-lo quando um evento estiver disponível.
+
 ## Criando o seu Bot
 
 Primeiro, abra o Visual Studio e crie um novo projeto C#. Escolha o template Bot Application para o seu novo projeto.
