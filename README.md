@@ -260,4 +260,4 @@ namespace Bot_RecommendationPlaces
 ```
 Pronto, o nosso bot está pronto para ser testado. Através da definição de um simples form conectado ao framework usando o FormFlow, todo o gerenciamento da conversação entre o bot e o usuário é gerado automaticamente, permitindo que o usuário possa realizar operações como, **ajuda**, **voltar a pergunta anterior**, **verificar o status da conversação**, **finalizar a conversação**, entre outras operações.
 
-## Testando o nosso Bot
+## Testando o Bot Application
