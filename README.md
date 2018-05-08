@@ -74,3 +74,14 @@ Uma vez, tendo o projeto criado a seguinte estrutura de diretórios será defini
 Dentro da pasta **Controllers** é criada a classe **MessagesController.cs**. Esta classe possui o método chamado ```Post```, responsável por receber a mensagem do usuário e invocar o root dialog (RootDialog.cs). A classe RootDialogs.cs é criada automáticamente para prover um diálogo padrão de exemplo. 
 
 Entretanto, no nosso tutotial não iremos utilizar esta classe, pois vamos implementar o nosso bot utilizando **Bot Form Builder** que irá tornar nossa vida super fácil ao criar fluxos de conversações entre um usuário e o Bot.
+
+## Implementando o bot com Bot Form Builder 
+
+Vamos criar um bot para recomendar lugares como (bares, parques, shoppings, supermercados), de acordo com a localização do usuário.
+
+#### Criando o Form
+
+A classe ```RecomendPlace``` será responsável por definir o form e enumerations que serão as opções para definição da recomendação.
+A classe inclui também um método static ```BuildForm``` usado para criar o form e definir uma simples mensagem de boas vindas.
+
+Para usar o FormFlow, você deve importar o namespace Microsoft.Bot.Builder.FormFlow.
