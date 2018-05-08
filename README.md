@@ -81,7 +81,6 @@ Vamos criar um bot para recomendar lugares como (bares, parques, shoppings, supe
 
 #### Criando o Form
 
-A classe ```RecomendPlace``` será responsável por definir o form e enumerations que serão as opções para definição da recomendação.
-A classe inclui também um método static ```BuildForm``` usado para criar o form e definir uma simples mensagem de boas vindas.
+A classe ```RecommendationPlace``` será responsável por definir o form e enumerations que serão as opções para definição da recomendação. A classe inclui também um método static ```BuildForm``` usado para criar o form e definir uma simples mensagem de boas vindas.
 
 Para usar o FormFlow, você deve importar o namespace Microsoft.Bot.Builder.FormFlow.
