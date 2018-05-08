@@ -195,4 +195,8 @@ namespace Bot_RecommendationPlaces.Model.Bots
         }
     }
 }
+````
+
+```note
+Este artigo descreve como você pode definir form usando uma classe C#. Entreanto é possível definir também o form utilizando um  schema JSON. Para maiores detalhes acesse [Definindo um form usando um schema JSON.]https://docs.microsoft.com/en-us/azure/bot-service/dotnet/bot-builder-dotnet-formflow-json-schema?view=azure-bot-service-3.0
 ```
