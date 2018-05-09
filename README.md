@@ -266,14 +266,18 @@ Para testar o Bot, devemos primeiro fazer download do [Bot Emulator](https://git
 Tendo o **Bot Emulator** instalado excute os passos definidos abaixo:
 
 1. Executar o projeto no Visual Studio pressionado F5
-2. Abrir o Bot Emulator e conectar na URL, conforme exemplo: ```htmlhttps://your_bots_hostname/api/messages```
+2. Abrir o Bot Emulator e conectar na URL, conforme exemplo: ```https://your_bots_hostname/api/messages```
 
 Veja o fluxo de teste do nosso projeto POC Bot Application:
 
-**Conectar ao Bot**
+**Conectando ao Bot**
 
 ![Bot Conection](images/4.png)
 
 **Fluxo 1 da conversação**
 
 ![Bot Conection](images/5.png)
+
+**Fluxo 2 da conversação**
+
+![Bot Conection](images/6.png)
