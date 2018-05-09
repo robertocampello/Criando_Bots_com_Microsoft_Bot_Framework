@@ -18,9 +18,9 @@ Você pode escolher usar seu ambiente de desenvolvimento favorito para criar seu
 
 ## Pré-Requisitos
 
-1. Instale o [Visual Studio 2017](https://www.visualstudio.com/downloads/) – Pode ser o community
-2. Faça o download dos arquivos zip do **Bot Application**, **Bot Controller**, e **Bot Dialog**. Instale o projeto template copiando o arquivo **Bot Application.zip** para o diretório projects template do seu Visual Studio e copie os arquivos **Bot Controller.zip** e Bot Dialog.zip para o diretório item templates do seu Visual Studio.
-3. Faça o download do [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator) - Necessário para teste do BOT
+1. Instalar o [Visual Studio 2017](https://www.visualstudio.com/downloads/) – Pode ser o community
+2. Fazer o download dos arquivos zip do **Bot Application**, **Bot Controller**, e **Bot Dialog**. Instalar o projeto template copiando o arquivo **Bot Application.zip** para o diretório projects template do seu Visual Studio e copiar os arquivos **Bot Controller.zip** e **Bot Dialog.zip** para o diretório item templates do seu Visual Studio.
+3. Fazer o download do [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator) - Necessário para teste do BOT
 
 ***Dica***: Geralmente as pastas project templates e item templates do Visual Studio, ficam localizadas respectivamente nos caminhos: 
 ```html
