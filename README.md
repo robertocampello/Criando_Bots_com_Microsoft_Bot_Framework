@@ -10,7 +10,11 @@ Usando a SDK, você pode construir bots utilizando as seguintes SDK features:
 * Diálogos que utilize AI frameworks como o [LUIS](https://www.luis.ai/home)
 * FormFlow para gerar automaticamente um bot (através de uma classe C#) que direciona o usuário através da conversação, fornecendo ajuda, navegação, entendimento e confirmação
 
-Este tutorial demonstra como você pode construir bots usando o template Bot Application e o Bot Builder SDK for .NET, e como testá-lo com o Bot Framework Emulator.
+Este tutorial demonstra como você pode construir bots usando o template **Bot Application** e o **Bot Builder SDK versão 3.x**, e como testá-lo com o **Bot Framework Emulator**.
+
+Você pode escolher usar seu ambiente de desenvolvimento favorito para criar seu bot usando **C#** o **Node.js**. A framework fornece ferramentas para as várias etapas de desenvolvimento que você pode utilizar para construir, testar e publicar o seu bot.
+
+![Flow Dev Bot](images/8.png)
 
 ## Pré-Requisitos
 
