@@ -268,7 +268,7 @@ Tendo o **Bot Emulator** instalado excute os passos definidos abaixo:
 1. Executar o projeto no Visual Studio pressionado F5
 2. Abrir o Bot Emulator e conectar na URL, conforme exemplo: ```https://your_bots_hostname/api/messages```
 
-Veja o fluxo de teste do nosso projeto POC Bot Application:
+Veja o fluxo de teste do nosso projeto **POC Bot Application**:
 
 **Conectando ao Bot**
 
@@ -281,3 +281,7 @@ Veja o fluxo de teste do nosso projeto POC Bot Application:
 **Fluxo 2 da conversação**
 
 ![Bot Conection](images/6.png)
+
+**Fluxo 3 da conversação**
+
+![Bot Conection](images/7.png)
