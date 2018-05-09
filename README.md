@@ -261,3 +261,13 @@ namespace Bot_RecommendationPlaces
 Pronto, o nosso bot está pronto para ser testado. Através da definição de um simples form conectado ao framework usando o FormFlow, todo o gerenciamento da conversação entre o bot e o usuário é gerado automaticamente, permitindo que o usuário possa realizar operações como: (*ajuda*, *voltar a pergunta anterior*, *verificar o status da conversação*, *finalizar a conversação*), entre outras operações.
 
 ## Testando o Bot Application
+Para testar o Bot, devemos primeiro fazer download do [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator/blob/master/README.md), essa ferramenta irá nos ajudar a testar o nosso fluxo de conversação. O Bot Framework Emulator é uma aplicação desktop que permite aos desenvolvedores testar e debugar seus bots em um ambiente localhost ou executá-lo remotamente através de um túnel.
+
+Tendo o Bot Emulator instalado para testar você deve:
+
+1. Executar o projeto no Visual Studio pressionado F5
+2. Abrir o Bot Emulator e conectar na URL, conforme exemplo: https://your_bots_hostname/api/messages
+
+Veja o fluxo de teste do nosso projeto POC Bot Application:
+
+![Bot Conection](images/4.png)
