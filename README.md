@@ -20,7 +20,7 @@ Você pode escolher usar seu ambiente de desenvolvimento favorito para criar seu
 
 1. Instalar o [Visual Studio 2017](https://www.visualstudio.com/downloads/) – Pode ser o community
 2. Fazer o [download](https://marketplace.visualstudio.com/items?itemName=BotBuilder.BotBuilderV3) dos arquivos zip do **Bot Application**, **Bot Controller**, e **Bot Dialog**. Instalar o projeto template copiando o arquivo **Bot Application.zip** para o diretório projects template do seu Visual Studio e copiar os arquivos **Bot Controller.zip** e **Bot Dialog.zip** para o diretório item templates do seu Visual Studio.
-3. Fazer o download do  - Necessário para teste do BOT
+3. Fazer o download do [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator) - Necessário para teste do BOT
 
 ***Dica***: Geralmente as pastas **project templates** e **item templates** do Visual Studio, ficam localizadas respectivamente nos caminhos: 
 ```html
@@ -265,7 +265,7 @@ namespace Bot_RecommendationPlaces
 Pronto, o nosso bot está pronto para ser testado. Através da definição de um simples form conectado ao framework usando o FormFlow, todo o gerenciamento da conversação entre o bot e o usuário é gerado automaticamente, permitindo que o usuário possa realizar operações como: (*ajuda*, *voltar a pergunta anterior*, *verificar o status da conversação*, *finalizar a conversação*), entre outras operações.
 
 ## Testando o Bot Application
-Para testar o Bot, devemos primeiro fazer download do Bot Emulator, essa ferramenta irá nos ajudar a testar o nosso fluxo de conversação. O Bot Framework Emulator é uma aplicação desktop que permite aos desenvolvedores testar e debugar seus bots em um ambiente localhost ou executá-lo remotamente através de um túnel.
+Para testar o Bot, devemos primeiro fazer download do [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator), essa ferramenta irá nos ajudar a testar o nosso fluxo de conversação. O Bot Framework Emulator é uma aplicação desktop que permite aos desenvolvedores testar e debugar seus bots em um ambiente localhost ou executá-lo remotamente através de um túnel.
 
 Tendo o **Bot Emulator** instalado excute os passos definidos abaixo:
 
