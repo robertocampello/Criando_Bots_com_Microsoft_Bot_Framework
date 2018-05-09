@@ -22,7 +22,7 @@ Você pode escolher usar seu ambiente de desenvolvimento favorito para criar seu
 2. Fazer o [download](https://marketplace.visualstudio.com/items?itemName=BotBuilder.BotBuilderV3) dos arquivos zip do **Bot Application**, **Bot Controller**, e **Bot Dialog**. Instalar o projeto template copiando o arquivo **Bot Application.zip** para o diretório projects template do seu Visual Studio e copiar os arquivos **Bot Controller.zip** e **Bot Dialog.zip** para o diretório item templates do seu Visual Studio.
 3. Fazer o download do [Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator) - Necessário para teste do BOT
 
-***Dica***: Geralmente as pastas project templates e item templates do Visual Studio, ficam localizadas respectivamente nos caminhos: 
+***Dica***: Geralmente as pastas **project templates** e **item templates** do Visual Studio, ficam localizadas respectivamente nos caminhos: 
 ```html
 %USERPROFILE%\Documents\Visual Studio XXXX\Templates\ProjectTemplates\Visual C#\
 %USERPROFILE%\Documents\Visual Studio XXXX\Templates\ItemTemplates\Visual C#\
