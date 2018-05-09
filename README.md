@@ -286,4 +286,4 @@ Veja o fluxo de teste do nosso projeto **POC Bot Application**:
 
 ![Bot Conection](images/7.png)
 
-Neste tutorial nós demonstramos como você pode criar uma simples aplicação Bot para definir uma conversação com o usuário. Entretanto, a framework Bot é uma ferramenta poderosa que te permite customizar uma interação ainda mais rica com usuário, onde você pode por exemplo, especificar o estado inicial do form, adicionar validações e regras de negócio para gerenciar interdependências durante o processo e até mesmo criar bots que façam uso de IA.
+Neste tutorial nós demonstramos como você pode criar uma simples aplicação Bot para definir uma conversação com o usuário. Entretanto, a framework Bot é uma ferramenta poderosa que te permite customizar uma interação ainda mais rica com usuário, onde você pode por exemplo: *especificar o estado inicial do form, adicionar validações e regras de negócio, prover segurança e até mesmo criar bots que façam uso de IA*. Para maiores detalhes consulte a [documentação da framework](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0).
