@@ -3,3 +3,6 @@
 ################################################################################
 
 /packages
+/.vs
+/Bot_RecommendationPlaces/obj/Debug
+/Bot_RecommendationPlaces/bin
