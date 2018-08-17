@@ -1,5 +1,5 @@
 # Criando Bots com o Microsoft Bot Framework
-Tutotial demonstrando a criação de Bots com o **Microsoft Bot Framework**.
+Tutorial demonstrando a criação de Bots com o **Microsoft Bot Framework**.
 
 O Microsoft Bot Framework foi criado para ajudar na criação de bots. Bots são robôs pré programados que podem interagir com os usuários naturalmente nos mais diversos canais como Skype, Facebook e outros serviços de mensagens.
 
